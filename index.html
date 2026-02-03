@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YRRNA Systems Lab</title>
+    <meta
+      name="description"
+      content="YRRNA Systems Lab is a research-based organization developing innovative solutions for societal and industrial problems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              moss: "#8E9C78",
+              sage: "#8E9C78",
+              sand: "#ffffff",
+              oat: "#ffffff",
+              soil: "#1c1c1c",
+              clay: "#ffffff",
+              line: "#e5e7eb",
+            },
+            fontFamily: {
+              display: ["Crimson Text", "serif"],
+              body: ["Crimson Text", "serif"],
+            },
+            boxShadow: {
+              soft: "0 20px 40px rgba(33, 33, 33, 0.12)",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Crimson Text", serif;
+      }
+      .glass-header {
+        background: rgba(255, 255, 255, 0.7);
+        border-bottom: 1px solid rgba(142, 156, 120, 0.25);
+        box-shadow: 0 16px 40px rgba(10, 10, 10, 0.08);
+        backdrop-filter: blur(16px);
+      }
+    </style>
+  </head>
+  <body class="bg-white text-soil">
+
+    <div class="border-b border-line text-moss text-xs">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-2">
+        <p>
+          Application open for Internship Opportunity at YRRNA Systems Lab, IIT Kanpur.
+          Send your CV to internship@yrrna.com or ynsingh@iitk.ac.in
+        </p>
+        <span class="hidden text-[10px] uppercase tracking-[0.3em] md:inline">Internships</span>
+      </div>
+    </div>
+
+    <header id="siteHeader" class="fixed left-0 top-0 z-50 w-full px-6 py-6 lg:px-10 transition-all duration-200">
+      <div class="mx-auto flex max-w-screen-2xl items-center justify-between">
+        <div
+          id="navLogo"
+          class="font-display text-3xl transition-opacity duration-200"
+        >
+          <a href="#" class="hover:opacity-80">YRRNA</a>
+        </div>
+        <div class="flex flex-1 justify-center">
+          <div
+            id="navPill"
+            class="flex items-center gap-7 whitespace-nowrap rounded-full px-6 py-5 text-sm font-bold tracking-tight transition-all duration-300"
+          >
+            <a class="hover:text-[#6F6F6F]" href="#about">About</a>
+            <a class="hover:text-[#6F6F6F]" href="#products">Products</a>
+            <a class="hover:text-[#6F6F6F]" href="#patents">Patents</a>
+            <a class="hover:text-[#6F6F6F]" href="#pillars">Pillars</a>
+            <a class="hover:text-[#6F6F6F]" href="#team">Team</a>
+            <a class="hover:text-[#6F6F6F]" href="#expertise">Expertise</a>
+            <a class="hover:text-[#6F6F6F]" href="#contact">Contact</a>
+          </div>
+        </div>
+        <div id="navAction" class="transition-opacity duration-200">
+          <a href="#contact" class="rounded-full bg-moss px-6 py-3 text-sm font-semibold text-white shadow-soft">
+            Contact
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="mx-auto flex max-w-6xl flex-col items-center px-6 pb-16 pt-28 text-center">
+        <h1
+          class="font-display text-4xl leading-[0.9] tracking-tighter text-center z-10 sm:text-6xl md:text-[76px] w-full max-w-full px-6 overflow-hidden"
+        >
+          YRRNA <br className=" hidden md:visible" /> SYSTEMS LAB
+        </h1>
+        <div class="relative mt-10 flex w-full justify-center">
+          <div class="rounded-[32px] bg-moss/30 p-8">
+            <img
+              src="yrrna-images/header2.jpeg"
+              alt="YRRNA Systems Lab group photo"
+              class="h-[420px] w-[820px] max-w-full rounded-[24px] object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="mx-auto max-w-6xl px-6 py-16">
+        <div class="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+          <div>
+            <p class="text-xs uppercase tracking-[0.5em] text-moss/70">About Us</p>
+            <h2 class="mt-4 font-display text-3xl">Building the future through applied research.</h2>
+            <p class="mt-6 text-soil/70">
+              We are a research-based organization dedicated to developing innovative end to end solutions for a wide
+              range of problems in society and industry. The company has been formed under Faculty Entrepreneurship
+              Policy, and IIT Kanpur holds 10% equity. We are a team of highly skilled scientists, researchers,
+              engineers, and analysts who work continuously to push the boundaries of technology and to provide the
+              service and products that meet the needs of clients. All the persons who are involved in the organization
+              are also the stakeholders.
+            </p>
+          </div>
+          <div class="grid gap-6 md:grid-cols-2">
+            <div class="rounded-2xl border border-line p-6">
+              <p class="text-xs uppercase tracking-[0.3em] text-moss/70">Mission</p>
+              <p class="mt-4 text-sm text-soil/70">To learn from each challenge and continuously improve whatever we do.</p>
+            </div>
+            <div class="rounded-2xl border border-line p-6">
+              <p class="text-xs uppercase tracking-[0.3em] text-moss/70">Vision</p>
+              <p class="mt-4 text-sm text-soil/70">
+                To innovate, design and build sustainable, efficient, cost effective solutions to improve living
+                conditions of all the life on earth and beyond.
+              </p>
+            </div>
+            <div class="rounded-2xl border border-line p-6 md:col-span-2">
+              <p class="text-xs uppercase tracking-[0.3em] text-moss/70">IIT Kanpur Equity</p>
+              <p class="mt-4 text-sm text-soil/70">
+                Established under the Faculty Entrepreneurship Policy with IIT Kanpur holding 10% equity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="mx-auto max-w-6xl px-6 py-16">
+        <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="text-xs uppercase tracking-[0.5em] text-moss/70">Products</p>
+            <h2 class="mt-4 font-display text-3xl">Active R&amp;D portfolio</h2>
+            <p class="mt-4 text-soil/70">
+              Our company has a diverse product portfolio, spanning multiple industries and applications. Here are
+              some of our ongoing research and development.
+            </p>
+          </div>
+          <div class="flex gap-2">
+            <button
+              id="productPrev"
+              class="rounded-full border border-moss/30 px-4 py-2 text-sm font-semibold text-moss"
+              aria-label="Previous"
+            >
+              Prev
+            </button>
+            <button
+              id="productNext"
+              class="rounded-full bg-moss px-4 py-2 text-sm font-semibold text-white"
+              aria-label="Next"
+            >
+              Next
+            </button>
+          </div>
+        </div>
+        <div class="mt-10">
+          <div
+            id="productCarousel"
+            class="flex gap-6 overflow-x-auto scroll-smooth pb-4 [-ms-overflow-style:none] [scrollbar-width:none]"
+          >
+            <div class="min-w-[260px] flex-1 rounded-2xl border border-line p-6 shadow-soft sm:min-w-[300px]">
+              <img
+                src="yrrna-images/navigation.jpg"
+                alt="Attitude And Heading Reference System"
+                class="h-36 w-full rounded-xl object-cover mb-4"
+              />
+              <p class="text-xs uppercase tracking-[0.3em] text-moss/70">AHRS</p>
+              <h3 class="mt-3 text-lg font-semibold">Attitude And Heading Reference System</h3>
+            </div>
+            <div class="min-w-[260px] flex-1 rounded-2xl border border-line p-6 shadow-soft sm:min-w-[300px]">
+              <img
+                src="yrrna-images/olm.jpg"
+                alt="Online Market Place Based On P2P Networks"
+                class="h-36 w-full rounded-xl object-cover mb-4"
+              />
+              <p class="text-xs uppercase tracking-[0.3em] text-moss/70">P2P Market</p>
+              <h3 class="mt-3 text-lg font-semibold">Online Market Place Based On P2P Networks</h3>
+            </div>
+            <div class="min-w-[260px] flex-1 rounded-2xl border border-line p-6 shadow-soft sm:min-w-[300px]">
+              <img
+                src="yrrna-images/block_chain.jpg"
+                alt="High Throughput Block-Chain Design With Massive Scalability"
+                class="h-36 w-full rounded-xl object-cover mb-4"
+              />
+              <p class="text-xs uppercase tracking-[0.3em] text-moss/70">Blockchain</p>
+              <h3 class="mt-3 text-lg font-semibold">High Throughput Block-Chain Design With Massive Scalability</h3>
+            </div>
+            <div class="min-w-[260px] flex-1 rounded-2xl border border-line p-6 shadow-soft sm:min-w-[300px]">
+              <img
+                src="yrrna-images/bms.jpg"
+                alt="Smart Battery Management System Based On P2P Network"
+                class="h-36 w-full rounded-xl object-cover mb-4"
+              />
+              <p class="text-xs uppercase tracking-[0.3em] text-moss/70">Smart BMS</p>
+              <h3 class="mt-3 text-lg font-semibold">Smart Battery Management System Based On P2P Network</h3>
+            </div>
+            <div class="min-w-[260px] flex-1 rounded-2xl border border-line p-6 shadow-soft sm:min-w-[300px]">
+              <img
+                src="yrrna-images/vehicle.jpg"
+                alt="Intelligent Battery Management System For Electric Vehicles"
+                class="h-36 w-full rounded-xl object-cover mb-4"
+              />
+              <p class="text-xs uppercase tracking-[0.3em] text-moss/70">EV Intelligence</p>
+              <h3 class="mt-3 text-lg font-semibold">Intelligent Battery Management System For Electric Vehicles</h3>
+            </div>
+            <div class="min-w-[260px] flex-1 rounded-2xl border border-line p-6 shadow-soft sm:min-w-[300px]">
+              <img
+                src="yrrna-images/super_app.jpg"
+                alt="Super App For Physically Challenged Person"
+                class="h-36 w-full rounded-xl object-cover mb-4"
+              />
+              <p class="text-xs uppercase tracking-[0.3em] text-moss/70">Assistive Tech</p>
+              <h3 class="mt-3 text-lg font-semibold">Super App For Physically Challenged Person</h3>
+            </div>
+            <div class="min-w-[260px] flex-1 rounded-2xl border border-line p-6 shadow-soft sm:min-w-[300px]">
+              <img
+                src="yrrna-images/future_potential.jpg"
+                alt="Future Potential Industry"
+                class="h-36 w-full rounded-xl object-cover mb-4"
+              />
+              <p class="text-xs uppercase tracking-[0.3em] text-moss/70">Future Potential</p>
+              <h3 class="mt-3 text-lg font-semibold">Future Potential Industry</h3>
+            </div>
+            <div class="min-w-[260px] flex-1 rounded-2xl border border-line p-6 shadow-soft sm:min-w-[300px]">
+              <img
+                src="yrrna-images/10.jpg"
+                alt="Next Generation Wireless and Optical Network Solutions"
+                class="h-36 w-full rounded-xl object-cover mb-4"
+              />
+              <p class="text-xs uppercase tracking-[0.3em] text-moss/70">Wireless &amp; Optical</p>
+              <h3 class="mt-3 text-lg font-semibold">Next Generation Wireless and Optical Network Solutions</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="patents" class="mx-auto max-w-6xl px-6 py-16">
+        <div class="rounded-[32px] border border-line px-6 py-10 md:px-12">
+          <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p class="text-xs uppercase tracking-[0.5em] text-moss/70">Patents</p>
+              <h2 class="mt-4 font-display text-3xl">Protecting deep technology</h2>
+            </div>
+            <div class="flex gap-3 text-[10px] uppercase tracking-[0.2em] text-soil/50">
+              <span class="rounded-full border border-moss/40 px-3 py-1">Granted</span>
+              <span class="rounded-full border border-clay/60 px-3 py-1">Filed</span>
+            </div>
+          </div>
+          <div class="mt-10 grid gap-6 lg:grid-cols-2">
+            <div class="space-y-4">
+              <div class="rounded-2xl border border-line p-5 shadow-soft">
+                <div class="flex items-center justify-between">
+                  <p class="text-sm font-semibold">Application no. 2513/DEL/2005</p>
+                  <span class="rounded-full bg-moss/10 px-2 py-1 text-[10px] text-moss">Granted</span>
+                </div>
+                <p class="mt-3 text-sm text-soil/70">
+                  An architecture for rearrangebly nonblocking all optical crossconnect wavelength switching system.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-line p-5 shadow-soft">
+                <div class="flex items-center justify-between">
+                  <p class="text-sm font-semibold">Application no. 2706/DEL/2007</p>
+                  <span class="rounded-full bg-moss/10 px-2 py-1 text-[10px] text-moss">Granted</span>
+                </div>
+                <p class="mt-3 text-sm text-soil/70">
+                  WDM optical packet switch incorporating fiber bragg grating and circulator.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-line p-5 shadow-soft">
+                <div class="flex items-center justify-between">
+                  <p class="text-sm font-semibold">Application no. 2707/DEL/2007</p>
+                  <span class="rounded-full bg-moss/10 px-2 py-1 text-[10px] text-moss">Granted</span>
+                </div>
+                <p class="mt-3 text-sm text-soil/70">
+                  All-optical reflector based WDM optical packet switch.
+                </p>
+              </div>
+            </div>
+            <div class="space-y-4">
+              <div class="rounded-2xl border border-line p-5 shadow-soft">
+                <div class="flex items-center justify-between">
+                  <p class="text-sm font-semibold">Application no. 202211076914</p>
+                  <span class="rounded-full bg-moss/10 px-2 py-1 text-[10px] text-moss">Granted</span>
+                </div>
+                <p class="mt-3 text-sm text-soil/70">
+                  Method and system of adjusting display luminescence using artificial intelligence.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-line p-5 shadow-soft">
+                <div class="flex items-center justify-between">
+                  <p class="text-sm font-semibold">Patent no. 543735</p>
+                  <span class="rounded-full bg-moss/10 px-2 py-1 text-[10px] text-moss">Granted</span>
+                </div>
+                <p class="mt-3 text-sm text-soil/70">
+                  System for providing an automatic shifting of gear in a bicycle and method thereof.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-line p-5 shadow-soft">
+                <div class="flex items-center justify-between">
+                  <p class="text-sm font-semibold">Peer-to-Peer Live Streaming</p>
+                  <span class="rounded-full bg-clay/30 px-2 py-1 text-[10px] text-moss">Filed</span>
+                </div>
+                <p class="mt-3 text-sm text-soil/70">
+                  A Peer-to-Peer (P2P) live streaming and video-on-demand system.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-line p-5 shadow-soft">
+                <div class="flex items-center justify-between">
+                  <p class="text-sm font-semibold">Traffic Control Optimization</p>
+                  <span class="rounded-full bg-clay/30 px-2 py-1 text-[10px] text-moss">Filed</span>
+                </div>
+                <p class="mt-3 text-sm text-soil/70">
+                  System for optimizing traffic control at road intersections and method thereof.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-line p-5 shadow-soft">
+                <div class="flex items-center justify-between">
+                  <p class="text-sm font-semibold">Federated Learning BMS</p>
+                  <span class="rounded-full bg-clay/30 px-2 py-1 text-[10px] text-moss">Filed</span>
+                </div>
+                <p class="mt-3 text-sm text-soil/70">
+                  Federated learning-based battery management system for electric vehicles.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pillars" class="mx-auto max-w-6xl px-6 py-16">
+        <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="text-xs uppercase tracking-[0.5em] text-moss/70">Core Pillars</p>
+            <h2 class="mt-4 font-display text-3xl">How we deliver reliable innovation</h2>
+          </div>
+          <p class="max-w-xl text-soil/70">
+            We connect rigorous research with customer alignment to build scalable, dependable technology.
+          </p>
+        </div>
+        <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-2xl border border-line p-6">
+            <h3 class="font-display text-lg">Research &amp; Development</h3>
+            <p class="mt-3 text-sm text-soil/70">
+              Our mains focus on R&amp;D allows us to create innovative end to end solutions that meet the evolving
+              needs of our clients.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <h3 class="font-display text-lg">Technical Expertise</h3>
+            <p class="mt-3 text-sm text-soil/70">
+              Our team of highly skilled scientists, researchers, engineers and analyst has extensive expertise in a
+              wide range of technologies, from machine learning to block-chain. Further, we are always open to learn
+              and explore any new skill required for reaching the solution.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <h3 class="font-display text-lg">Customization</h3>
+            <p class="mt-3 text-sm text-soil/70">
+              We work closely with our customers to understand their specific needs and requirements, and provide
+              customized solutions to meet those needs.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <h3 class="font-display text-lg">Quality &amp; Reliability</h3>
+            <p class="mt-3 text-sm text-soil/70">
+              We ensure to learn from every input from clients and users of our technology, and revise the product to
+              achieve continuously improving quality and reliability.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" class="mx-auto max-w-6xl px-6 py-16">
+        <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="text-xs uppercase tracking-[0.5em] text-moss/70">Core Team</p>
+            <h2 class="mt-4 font-display text-3xl">Meet the researchers and builders</h2>
+          </div>
+          <p class="max-w-xl text-soil/70">
+            A multidisciplinary team of faculty, researchers, and associates delivering results across domains.
+          </p>
+        </div>
+        <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div class="rounded-2xl border border-line p-6">
+            <div class="flex items-center gap-4">
+              <img
+                src="yrrna-images/ynsingh.webp"
+                alt="Dr. Yatindra Nath Singh"
+                class="h-12 w-12 rounded-full object-cover"
+              />
+              <div>
+                <p class="font-semibold">Dr. Yatindra Nath Singh</p>
+                <p class="text-sm text-soil/60">Professor (HAG), EE Department</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <div class="flex items-center gap-4">
+              <img
+                src="yrrna-images/ajeet.webp"
+                alt="Ajeet Singh Shekhawat"
+                class="h-12 w-12 rounded-full object-cover"
+              />
+              <div>
+                <p class="font-semibold">Ajeet Singh Shekhawat</p>
+                <p class="text-sm text-soil/60">Associate</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <div class="flex items-center gap-4">
+              <img
+                src="yrrna-images/akhilesh.webp"
+                alt="Akhilesh Patel"
+                class="h-12 w-12 rounded-full object-cover"
+              />
+              <div>
+                <p class="font-semibold">Akhilesh Patel</p>
+                <p class="text-sm text-soil/60">Associate</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <div class="flex items-center gap-4">
+              <img
+                src="yrrna-images/amitp.webp"
+                alt="Amit Pandit"
+                class="h-12 w-12 rounded-full object-cover"
+              />
+              <div>
+                <p class="font-semibold">Amit Pandit</p>
+                <p class="text-sm text-soil/60">Associate</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <div class="flex items-center gap-4">
+              <img
+                src="yrrna-images/nksingh.webp"
+                alt="Nagendra Kumar Singh"
+                class="h-12 w-12 rounded-full object-cover"
+              />
+              <div>
+                <p class="font-semibold">Nagendra Kumar Singh</p>
+                <p class="text-sm text-soil/60">Associate</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <div class="flex items-center gap-4">
+              <img
+                src="yrrna-images/pallavi.webp"
+                alt="Dr. Pallavi Athe"
+                class="h-12 w-12 rounded-full object-cover"
+              />
+              <div>
+                <p class="font-semibold">Dr. Pallavi Athe</p>
+                <p class="text-sm text-soil/60">Associate</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <div class="flex items-center gap-4">
+              <img
+                src="yrrna-images/rahulbt.webp"
+                alt="Rahul Bhattacharyya"
+                class="h-12 w-12 rounded-full object-cover"
+              />
+              <div>
+                <p class="font-semibold">Rahul Bhattacharyya</p>
+                <p class="text-sm text-soil/60">Associate</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <div class="flex items-center gap-4">
+              <img
+                src="yrrna-images/rahulp.webp"
+                alt="Rahul Prakash"
+                class="h-12 w-12 rounded-full object-cover"
+              />
+              <div>
+                <p class="font-semibold">Rahul Prakash</p>
+                <p class="text-sm text-soil/60">Associate</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <div class="flex items-center gap-4">
+              <img
+                src="yrrna-images/rnt.webp"
+                alt="Dr. R N Tripathi"
+                class="h-12 w-12 rounded-full object-cover"
+              />
+              <div>
+                <p class="font-semibold">Dr. R N Tripathi</p>
+                <p class="text-sm text-soil/60">Associate</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <div class="flex items-center gap-4">
+              <img
+                src="yrrna-images/rashmik.webp"
+                alt="Rashmi Kushwaha"
+                class="h-12 w-12 rounded-full object-cover"
+              />
+              <div>
+                <p class="font-semibold">Rashmi Kushwaha</p>
+                <p class="text-sm text-soil/60">Associate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="expertise" class="mx-auto max-w-6xl px-6 py-16">
+        <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="text-xs uppercase tracking-[0.5em] text-moss/70">Expertise</p>
+            <h2 class="mt-4 font-display text-3xl">Deep specialization across systems</h2>
+          </div>
+          <p class="max-w-xl text-soil/70">Key experts guiding the research programs.</p>
+        </div>
+        <div class="mt-10 grid gap-6 lg:grid-cols-3">
+          <div class="rounded-2xl border border-line p-6">
+            <p class="text-lg font-semibold">Dr. Yatindra Nath Singh</p>
+            <p class="text-sm text-soil/60">Professor (HAG), EE Department</p>
+            <p class="mt-4 text-sm text-soil/70">
+              Telecom Networks, Telecom Switching Systems, Optical Networks and switching systems, P2P networking,
+              Complex networks, Wireless sensor networks, overlaid multicast systems.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <p class="text-lg font-semibold">Mr. Nagendra Kumar Singh</p>
+            <p class="text-sm text-soil/60">Sr. Project Engineer, EE Department</p>
+            <p class="mt-4 text-sm text-soil/70">
+              P2P App Development, Embedded System Design and Development, Software Engineering, Framework based Secure
+              Web Application Development, Server based App Development, P2P Networks.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-line p-6">
+            <p class="text-lg font-semibold">Mr. Rahul Bhattacharyya</p>
+            <p class="text-sm text-soil/60">Sr. Research Scholor, EE Department</p>
+            <p class="mt-4 text-sm text-soil/70">
+              Machine Learning, Blockchain, Microcontrollers (STM32, Arduino, 8051 etc.), Digital Signal Processing,
+              Embedded Programming in C and C++, Embedded software Keil and STM32CubeIDE, Matlab, Python.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="mx-auto max-w-6xl px-6 py-16">
+        <div class="rounded-[32px] border border-line px-6 py-10 md:px-12">
+          <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+            <div>
+              <p class="text-xs uppercase tracking-[0.5em] text-moss/70">Contact</p>
+              <h2 class="mt-4 font-display text-3xl">Let’s build something impactful.</h2>
+              <p class="mt-4 text-soil/70">
+                Reach out for collaborations, research inquiries, or internship opportunities.
+              </p>
+              <div class="mt-8 space-y-4 text-sm text-soil/70">
+                <div>
+                  <p class="uppercase text-[10px] tracking-[0.3em] text-soil/50">Address</p>
+                  <p class="mt-2">YRRNA Team IIT Kanpur</p>
+                </div>
+                <div>
+                  <p class="uppercase text-[10px] tracking-[0.3em] text-soil/50">Call us</p>
+                  <p class="mt-2">0512-(259/679)-7841</p>
+                </div>
+                <div>
+                  <p class="uppercase text-[10px] tracking-[0.3em] text-soil/50">Email us</p>
+                  <p class="mt-2">yrrna.sys.lab@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <form id="contactForm" class="space-y-4 rounded-2xl border border-line bg-white p-6 shadow-soft">
+              <div>
+                <label class="text-[10px] uppercase tracking-[0.3em] text-soil/60" for="name">Name</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  required
+                  class="mt-2 w-full rounded-xl border border-oat bg-sand px-4 py-3 text-sm text-soil placeholder-soil/40 focus:border-moss focus:outline-none"
+                  placeholder="Your name"
+                />
+              </div>
+              <div>
+                <label class="text-[10px] uppercase tracking-[0.3em] text-soil/60" for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  required
+                  class="mt-2 w-full rounded-xl border border-oat bg-sand px-4 py-3 text-sm text-soil placeholder-soil/40 focus:border-moss focus:outline-none"
+                  placeholder="you@example.com"
+                />
+              </div>
+              <div>
+                <label class="text-[10px] uppercase tracking-[0.3em] text-soil/60" for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                  class="mt-2 w-full rounded-xl border border-oat bg-sand px-4 py-3 text-sm text-soil placeholder-soil/40 focus:border-moss focus:outline-none"
+                  placeholder="Tell us about your project or inquiry"
+                ></textarea>
+              </div>
+              <button type="submit" class="w-full rounded-full bg-moss px-6 py-3 text-sm font-semibold text-white">
+                Send Message
+              </button>
+              <p id="formStatus" class="text-xs text-soil/50"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-soil/10 py-10">
+      <div class="mx-auto flex max-w-6xl flex-col gap-6 px-6 md:flex-row md:items-center md:justify-between">
+        <div>
+          <p class="font-display text-lg">YRRNA Systems Lab Pvt Ltd</p>
+          <p class="text-xs text-soil/50">© YRRNA Systems Lab Pvt Ltd || All Rights Reserved</p>
+        </div>
+        <div class="flex flex-wrap gap-4 text-sm text-soil/60">
+          <a class="hover:text-soil" href="#about">About</a>
+          <a class="hover:text-soil" href="#products">Products</a>
+          <a class="hover:text-soil" href="#patents">Patents</a>
+          <a class="hover:text-soil" href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const productCarousel = document.getElementById("productCarousel");
+      const productPrev = document.getElementById("productPrev");
+      const productNext = document.getElementById("productNext");
+      const contactForm = document.getElementById("contactForm");
+      const formStatus = document.getElementById("formStatus");
+      const siteHeader = document.getElementById("siteHeader");
+      const navPill = document.getElementById("navPill");
+      const navLogo = document.getElementById("navLogo");
+      const navAction = document.getElementById("navAction");
+
+      const scrollCarousel = (direction) => {
+        if (!productCarousel) return;
+        const card = productCarousel.querySelector("div");
+        const step = card ? card.getBoundingClientRect().width + 24 : 300;
+        productCarousel.scrollBy({ left: direction * step, behavior: "smooth" });
+      };
+
+      productPrev?.addEventListener("click", () => scrollCarousel(-1));
+      productNext?.addEventListener("click", () => scrollCarousel(1));
+
+      if (siteHeader && navPill && navLogo && navAction) {
+        const toggleHeader = () => {
+          if (window.scrollY > 50) {
+            navPill.classList.add("backdrop-blur-[15px]", "bg-white/40");
+            navLogo.classList.add("opacity-0", "invisible");
+            navAction.classList.add("opacity-0", "invisible");
+          } else {
+            navPill.classList.remove("backdrop-blur-[15px]", "bg-white/40");
+            navLogo.classList.remove("opacity-0", "invisible");
+            navAction.classList.remove("opacity-0", "invisible");
+          }
+        };
+        toggleHeader();
+        window.addEventListener("scroll", toggleHeader, { passive: true });
+      }
+
+      contactForm?.addEventListener("submit", (event) => {
+        event.preventDefault();
+        formStatus.textContent = "Thanks! Your message has been captured locally. We'll follow up shortly.";
+        contactForm.reset();
+      });
+    </script>
+  </body>
+</html>
