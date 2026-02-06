@@ -4,53 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YRRNA Systems Lab</title>
+    <link rel="stylesheet" href="styles.css" />
     <meta
       name="description"
       content="YRRNA Systems Lab is a research-based organization developing innovative solutions for societal and industrial problems."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="image" href="yrrna-images/header2.jpeg" fetchpriority="high" />
     <link
       href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              moss: "#8E9C78",
-              sage: "#8E9C78",
-              sand: "#ffffff",
-              oat: "#ffffff",
-              soil: "#1c1c1c",
-              clay: "#ffffff",
-              line: "#e5e7eb",
-            },
-            fontFamily: {
-              display: ["Crimson Text", "serif"],
-              body: ["Crimson Text", "serif"],
-            },
-            boxShadow: {
-              soft: "0 20px 40px rgba(33, 33, 33, 0.12)",
-            },
-          },
-        },
-      };
-    </script>
-    <style>
-      body {
-        font-family: "Crimson Text", serif;
-      }
-      .glass-header {
-        background: rgba(255, 255, 255, 0.7);
-        border-bottom: 1px solid rgba(142, 156, 120, 0.25);
-        box-shadow: 0 16px 40px rgba(10, 10, 10, 0.08);
-        backdrop-filter: blur(16px);
-      }
-    </style>
-  </head>
+</head>
   <body class="bg-white text-soil">
 
     <div class="border-b border-line text-moss text-xs">
@@ -98,13 +64,18 @@
         <h1
           class="font-display text-4xl leading-[0.9] tracking-tighter text-center z-10 sm:text-6xl md:text-[76px] w-full max-w-full px-6 overflow-hidden"
         >
-          YRRNA <br className=" hidden md:visible" /> SYSTEMS LAB
+          YRRNA <br class="hidden md:visible" /> SYSTEMS LAB
         </h1>
         <div class="relative mt-10 flex w-full justify-center">
           <div class="rounded-[32px] bg-[#96A082] p-8">
             <img
               src="yrrna-images/header2.jpeg"
               alt="YRRNA Systems Lab group photo"
+              loading="eager"
+              decoding="async"
+              fetchpriority="high"
+              width="984"
+              height="504"
               class="h-[504px] w-[984px] max-w-full rounded-[24px] object-cover"
             />
           </div>
@@ -168,7 +139,7 @@
               <img
                 src="yrrna-images/navigation.jpg"
                 alt="Attitude And Heading Reference System"
-                class="h-44 w-full rounded-2xl object-cover mb-5"
+                loading="lazy" decoding="async" width="360" height="176" class="h-44 w-full rounded-2xl object-cover mb-5"
               />
               <p class="text-xs uppercase tracking-[0.3em] text-moss/70">AHRS</p>
               <h3 class="mt-3 text-xl font-semibold">Attitude And Heading Reference System</h3>
@@ -177,7 +148,7 @@
               <img
                 src="yrrna-images/olm.jpg"
                 alt="Online Market Place Based On P2P Networks"
-                class="h-44 w-full rounded-2xl object-cover mb-5"
+                loading="lazy" decoding="async" width="360" height="176" class="h-44 w-full rounded-2xl object-cover mb-5"
               />
               <p class="text-xs uppercase tracking-[0.3em] text-moss/70">P2P Market</p>
               <h3 class="mt-3 text-xl font-semibold">Online Market Place Based On P2P Networks</h3>
@@ -186,7 +157,7 @@
               <img
                 src="yrrna-images/block_chain.jpg"
                 alt="High Throughput Block-Chain Design With Massive Scalability"
-                class="h-44 w-full rounded-2xl object-cover mb-5"
+                loading="lazy" decoding="async" width="360" height="176" class="h-44 w-full rounded-2xl object-cover mb-5"
               />
               <p class="text-xs uppercase tracking-[0.3em] text-moss/70">Blockchain</p>
               <h3 class="mt-3 text-xl font-semibold">High Throughput Block-Chain Design With Massive Scalability</h3>
@@ -195,7 +166,7 @@
               <img
                 src="yrrna-images/bms.jpg"
                 alt="Smart Battery Management System Based On P2P Network"
-                class="h-44 w-full rounded-2xl object-cover mb-5"
+                loading="lazy" decoding="async" width="360" height="176" class="h-44 w-full rounded-2xl object-cover mb-5"
               />
               <p class="text-xs uppercase tracking-[0.3em] text-moss/70">Smart BMS</p>
               <h3 class="mt-3 text-xl font-semibold">Smart Battery Management System Based On P2P Network</h3>
@@ -204,7 +175,7 @@
               <img
                 src="yrrna-images/vehicle.jpg"
                 alt="Intelligent Battery Management System For Electric Vehicles"
-                class="h-44 w-full rounded-2xl object-cover mb-5"
+                loading="lazy" decoding="async" width="360" height="176" class="h-44 w-full rounded-2xl object-cover mb-5"
               />
               <p class="text-xs uppercase tracking-[0.3em] text-moss/70">EV Intelligence</p>
               <h3 class="mt-3 text-xl font-semibold">Intelligent Battery Management System For Electric Vehicles</h3>
@@ -213,7 +184,7 @@
               <img
                 src="yrrna-images/super_app.jpg"
                 alt="Super App For Physically Challenged Person"
-                class="h-44 w-full rounded-2xl object-cover mb-5"
+                loading="lazy" decoding="async" width="360" height="176" class="h-44 w-full rounded-2xl object-cover mb-5"
               />
               <p class="text-xs uppercase tracking-[0.3em] text-moss/70">Assistive Tech</p>
               <h3 class="mt-3 text-xl font-semibold">Super App For Physically Challenged Person</h3>
@@ -222,7 +193,7 @@
               <img
                 src="yrrna-images/future_potential.jpg"
                 alt="Future Potential Industry"
-                class="h-44 w-full rounded-2xl object-cover mb-5"
+                loading="lazy" decoding="async" width="360" height="176" class="h-44 w-full rounded-2xl object-cover mb-5"
               />
               <p class="text-xs uppercase tracking-[0.3em] text-moss/70">Future Potential</p>
               <h3 class="mt-3 text-xl font-semibold">Future Potential Industry</h3>
@@ -231,7 +202,7 @@
               <img
                 src="yrrna-images/10.jpg"
                 alt="Next Generation Wireless and Optical Network Solutions"
-                class="h-44 w-full rounded-2xl object-cover mb-5"
+                loading="lazy" decoding="async" width="360" height="176" class="h-44 w-full rounded-2xl object-cover mb-5"
               />
               <p class="text-xs uppercase tracking-[0.3em] text-moss/70">Wireless &amp; Optical</p>
               <h3 class="mt-3 text-xl font-semibold">Next Generation Wireless and Optical Network Solutions</h3>
@@ -393,7 +364,7 @@
               <img
                 src="yrrna-images/ynsingh.webp"
                 alt="Dr. Yatindra Nath Singh"
-                class="h-14 w-14 rounded-full object-cover"
+                loading="lazy" decoding="async" width="56" height="56" class="h-14 w-14 rounded-full object-cover"
               />
               <div>
                 <p class="text-lg font-semibold">Dr. Yatindra Nath Singh</p>
@@ -406,7 +377,7 @@
               <img
                 src="yrrna-images/ajeet.webp"
                 alt="Ajeet Singh Shekhawat"
-                class="h-14 w-14 rounded-full object-cover"
+                loading="lazy" decoding="async" width="56" height="56" class="h-14 w-14 rounded-full object-cover"
               />
               <div>
                 <p class="text-lg font-semibold">Ajeet Singh Shekhawat</p>
@@ -419,7 +390,7 @@
               <img
                 src="yrrna-images/akhilesh.webp"
                 alt="Akhilesh Patel"
-                class="h-14 w-14 rounded-full object-cover"
+                loading="lazy" decoding="async" width="56" height="56" class="h-14 w-14 rounded-full object-cover"
               />
               <div>
                 <p class="text-lg font-semibold">Akhilesh Patel</p>
@@ -432,7 +403,7 @@
               <img
                 src="yrrna-images/amitp.webp"
                 alt="Amit Pandit"
-                class="h-14 w-14 rounded-full object-cover"
+                loading="lazy" decoding="async" width="56" height="56" class="h-14 w-14 rounded-full object-cover"
               />
               <div>
                 <p class="text-lg font-semibold">Amit Pandit</p>
@@ -445,7 +416,7 @@
               <img
                 src="yrrna-images/nksingh.webp"
                 alt="Nagendra Kumar Singh"
-                class="h-14 w-14 rounded-full object-cover"
+                loading="lazy" decoding="async" width="56" height="56" class="h-14 w-14 rounded-full object-cover"
               />
               <div>
                 <p class="text-lg font-semibold">Nagendra Kumar Singh</p>
@@ -458,7 +429,7 @@
               <img
                 src="yrrna-images/pallavi.webp"
                 alt="Dr. Pallavi Athe"
-                class="h-14 w-14 rounded-full object-cover"
+                loading="lazy" decoding="async" width="56" height="56" class="h-14 w-14 rounded-full object-cover"
               />
               <div>
                 <p class="text-lg font-semibold">Dr. Pallavi Athe</p>
@@ -471,7 +442,7 @@
               <img
                 src="yrrna-images/rahulbt.webp"
                 alt="Rahul Bhattacharyya"
-                class="h-14 w-14 rounded-full object-cover"
+                loading="lazy" decoding="async" width="56" height="56" class="h-14 w-14 rounded-full object-cover"
               />
               <div>
                 <p class="text-lg font-semibold">Rahul Bhattacharyya</p>
@@ -484,7 +455,7 @@
               <img
                 src="yrrna-images/rahulp.webp"
                 alt="Rahul Prakash"
-                class="h-14 w-14 rounded-full object-cover"
+                loading="lazy" decoding="async" width="56" height="56" class="h-14 w-14 rounded-full object-cover"
               />
               <div>
                 <p class="text-lg font-semibold">Rahul Prakash</p>
@@ -497,7 +468,7 @@
               <img
                 src="yrrna-images/rnt.webp"
                 alt="Dr. R N Tripathi"
-                class="h-14 w-14 rounded-full object-cover"
+                loading="lazy" decoding="async" width="56" height="56" class="h-14 w-14 rounded-full object-cover"
               />
               <div>
                 <p class="text-lg font-semibold">Dr. R N Tripathi</p>
@@ -510,7 +481,7 @@
               <img
                 src="yrrna-images/rashmik.webp"
                 alt="Rashmi Kushwaha"
-                class="h-14 w-14 rounded-full object-cover"
+                loading="lazy" decoding="async" width="56" height="56" class="h-14 w-14 rounded-full object-cover"
               />
               <div>
                 <p class="text-lg font-semibold">Rashmi Kushwaha</p>
